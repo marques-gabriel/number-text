@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Range | Number</title>
+</head>
+<body>
+
+    <form>
+        <h1>Escolha um número entre 0 e 999</h1>
+
+        <input type="range" id="choice" min="0" max="999">
+        <div>
+            <p>Número atual</p>
+            <input type="text" id="number" readonly disabled>
+        </div>
+
+        <div>
+            <p>Número por extenso</p>
+            <input type="text" id="written" readonly disabled>
+        </div>
+    </form>
+
+    <script src="./scripts.js" defer></script>
+    
+</body>
+</html>
